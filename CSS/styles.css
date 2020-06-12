@@ -9,35 +9,126 @@ body
 
 
 
-h1{
-    font-size: 562.5%;
-    margin: 50px auto 0 auto;
-    color: #66BFBF;
-    font-family: 'Sacramento', cursive;
-    line-height: 1.5;
-}
-
-
-
-h2{
-    margin: auto;
-    font-size: 2rem;
-    font-family: 'Montserrat', sans-serif;
+.top-bar
+{
+     font-family: 'Montserrat', sans-serif;
+    font-size:2rem;
     color: #66BFBF;
     font-weight: normal;
+    background-color: transparent;
+    margin-left: 5px;
+    background-size: cover;
+    position: relative;
+    padding-top: 0.50px;
+    padding-bottom: 10px;
+    text-align: left;
+    margin-left: 5%;
+
+
+
 }
+.btn1{
+    background-color: transparent;
+    color: #bf44ec;
+    margin-right: 15px;
+    border: 1px solid #bf44ec;
+    border-radius: 200px;
+    border-color: #66BFBF;
+
+}
+.btn1:hover{
+    background-color: white;}
+
+ .btn2{
+    background-color: transparent;
+    color: #bf44ec;
+    margin-right: 15px;
+    border: 1px solid #bf44ec;
+border-radius: 200px;
+    border-color: #66BFBF;
+}
+.btn2:hover{
+    background-color: white;}
+
+    .btn3{
+    background-color: transparent;
+    color: #bf44ec;
+    margin-right: 15px;
+    border: 1px solid #bf44ec;
+    border-radius: 200px;
+    border-color: #66BFBF;
+
+}
+.btn3:hover{
+    background-color: white;}
+
+    .btn4{
+    background-color: transparent;
+    color: #bf44ec;
+    margin-right: 15px;
+    border: 1px solid #bf44ec;
+    border-radius: 200px;
+    border-color: #66BFBF;
+
+}
+.btn4:hover{
+    background-color: white;}
+
+    .btn0{
+    background-color: transparent;
+    color: #bf44ec;
+    margin-right: 15px;
+    border: 1px solid #bf44ec;
+    border-radius: 200px;
+    border-color: #66BFBF;
+
+}
+.btn0:hover{
+    background-color: white;}
+
+h1{
+    font-size: 562.5%;
+    margin: 20px auto 0 auto;
+    color: #FF0000;
+    font-family: 'Sacramento', cursive;
+    line-height: 1.6;
+    width: 55%;
+    text-align: center;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: center;
+
+    padding: 10px 30px;
+    border-radius: 150px;
+}
+
+
+
+
 
 h3{
     
     font-family: 'Montserrat', sans-serif;
     color: #11999E;
 }
+.u{
+    display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 10s; /* don't forget to set a duration! */
+}
 .A
 {
     font-family: 'Montserrat', sans-serif;
-    font-size:1.5rem;
+    font-size:3rem;
     color: #66BFBF;
     font-weight: normal;
+    border: 1px solid #bf44ec;
+    border-radius: 500px;
+    border-color: #66BFBF
     }
 
 .B {
@@ -90,6 +181,8 @@ table.C{
     width: 60%;
     line-height: 1.5;
     text-align: center;
+    animation-duration: 2.5s;
+  animation-iteration-count: infinite;
     
 }
 .profile{
@@ -102,13 +195,13 @@ table.C{
     width: 60%;
     margin: auto;
     text-align: center;
-    line-height: 1.5;
+    line-height: 1.8;
     padding-bottom: 15px;
 }
 .top-container{
     background-color: #E4F9F5;
     position: relative;
-    padding-top: 100px;
+    padding-top: 50px;
     
 }
 
@@ -138,17 +231,17 @@ a{
     font-family: 'Montserrat', sans-serif;
     margin: 10px 20px;
     text-decoration: none;
-    font-size: 0.5rem;
+    font-size: 1.5rem;
     padding-top: 5px;
 }
 
 a:hover{
-    color: #74d4c0;
+    color: #74d4c9;
 }
 
 .copyright{
     color: #9a1f40;
-    font-size: 0.25rem;
+    font-size: 1rem;
     padding: 10px 0;
 }
 
